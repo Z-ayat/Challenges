@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style></style>
+
+<body>
+    <div class="nav">
+        <ul class="link">
+            <li class="_links"></li>
+            <li class="_links"></li>
+            <li class="_links"></li>
+            <li class="_links"></li>
+        </ul>
+    </div>
+</body>
+
+</html>
