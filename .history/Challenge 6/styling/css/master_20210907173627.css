@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bodyclr: #F6F6F6;
+    --basicclr: #F44336;
+    -proffclr: #2196F3;
+    --checkedclr: #009688;
+    --falseclr: #E91E63;
+    #FFFFFF #E5F3FD
+}

@@ -25,13 +25,8 @@
     height: 300px;
     width: 250px;
     grid-column: 2 / 2;
-    grid-row: 2 / 2;
 }
 
-.specs p {
-    height: max-content;
-    border: grey solid;
-    border-top: 2px;
-    border-bottom: 2px;
+.specs {
     text-transform: capitalize;
 }

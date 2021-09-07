@@ -29,7 +29,6 @@
 }
 
 .specs p {
-    height: max-content;
     border: grey solid;
     border-top: 2px;
     border-bottom: 2px;
