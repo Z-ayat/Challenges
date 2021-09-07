@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*::before {
+    display: inline-block;
+    color: #E5AF40;
+    margin-right: 10px;
+}
+
+*::after {
+    display: inline-block;
+    color: #E5AF40;
+}
+
+a,
+a:focus {
+    text-decoration: none;
+    cursor: default;
+    color: black;
+    font-weight: 500;
+}
+
+span {
+    font-weight: 500;
+}
+
+:root {
+    --clrbg: #51509B;
+    --clrhead: #404B5F;
+    --clrprice: #4A5568;
+    --clrbodyfont: #FFFFFF;
+    --facolor: #E5AF40;
+    --packb4bordshdw: #FFEABE;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    width: 90%;
+    height: 85%;
+    background-color: var(--clrbg);
+    border-radius: 5px;
+    color: var(--clrbodyfont);
+    padding: 70px 70px;
+}
+
+.head {
+    margin-bottom: 45px;
+}
+
+.head h3 {
+    margin-bottom: 1rem;
+    font-size: 2..5rem;
+}
+
+.prem-pack {
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 450px;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.prem-pack p {
+    color: black;
+}
+
+.specs {
+    width: 35px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    overflow-wrap: break-word;
+    width: 370px;
+    border-bottom: solid 1px #E2E8F0;
+}
+
+.fas {
+    color: var(--facolor)
+}

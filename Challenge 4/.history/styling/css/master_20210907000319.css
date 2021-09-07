@@ -1,0 +1,10 @@
+h3::before {
+    content: "\f4c0";
+    position: absolute;
+    top: 4px;
+    display: block;
+    left: -19px;
+    color: #81B73E;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
