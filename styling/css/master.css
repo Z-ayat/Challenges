@@ -466,3 +466,26 @@ li {
         font-size: 45px;
 
     }
+
+    @media screen and (max-width:375px) {
+        .navbar {
+            /* grid-column-end: span 3; */
+        }
+
+        /* .layout {
+            grid-template-columns: 1px 1px 3px repeat(8, 1fr) 4px 7px 7px;
+            grid-template-rows: 64px 32px 40px 147px 370px repeat(12, 1fr) 1fr;
+        } */
+        /* 
+        .mnumber {
+            visibility: hidden;
+        }
+
+        .socialcont {
+            visibility: hidden;
+        }
+
+        .logcont {
+            visibility: hidden;
+        } */
+    }
